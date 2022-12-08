@@ -1,0 +1,53 @@
+body {
+
+    background-color: rgb(25, 25, 68);
+    
+}
+.row {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.card {
+    box-shadow: 5px 7px 8px 3px rgba(35, 68, 242,0.8);
+    border-radius: 10px;
+    margin-top:120px;
+    width:500px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom:30px;
+    
+}
+
+
+.center{
+    text-align:center;
+    
+    
+}
+.container h3 {
+    padding:20px;
+}
+
+.form-control {
+    margin-bottom:12px;
+}
+
+.form-select {
+    margin-bottom:12px;
+}
+
+.terms {
+    display: flex;
+    justify-content: start;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.genderselect{
+    padding-left: 20px;
+}
+.button{
+    margin-top:10px;
+    width:200px;
+}

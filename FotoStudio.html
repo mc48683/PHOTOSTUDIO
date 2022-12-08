@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto Studio</title>
+    <script src="https://kit.fontawesome.com/abc38e518c.js" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+<!-- <link rel="stylesheet" href="stylesheet.css"> ovo nije korišteno-->
+ <link rel="stylesheet" href="masa.css">
+ <link rel="stylesheet" href="luce.css"> <!-- luce -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+
+
+</head>
+<body>
+  
+<div class="main">
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-o-up" style="font-size:36px"></i></button>
+
+<nav class="navbar navbar-expand-sm static-top">
+  <div class="container-fluid">
+    <img src="slike/logo.jpeg">
+    <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-toggle="modal" data-target="#modal" href="#">CONTACT</a>
+        </li>    
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <div class="maingl">
+    <div class="rowb ">
+      <div class="col-sm-4">
+        <hr class="line">
+        <p class="linep">PHOTO STUDIO ML</p>
+        <h1>Capturing Moments</h1>
+        <button class="btn" data-toggle="modal" data-target="#modal">CONTACT</button>
+      </div>
+      <div class="col-sm-8">
+  
+        <div class="text">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="photo">
+  <div class="rowa">
+    <div class="col">
+      <i class="fa-solid fa-camera"></i>
+      <h3>Digital and Analog</h3>
+      You can choose between using Digital Camera or Analog Camera with us.
+    </div>
+    <div class="col">
+      <i class="fa-solid fa-images"></i>
+      <h3>High Quality Result</h3>
+      We will always give you the best quality of the photos we take for you.
+    </div>
+    <div class="col">
+      <i class="fa-solid fa-money-check-dollar"></i>
+      <h3>Affordable price</h3>
+      You will get affordable price with high quality services.
+    </div>
+  </div>
+</div>
+  <div class="container1" style="background:black">
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+      <img src="slike/gal1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+      <img src="slike/gal2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+      <img src="slike/gal3.jpg" style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+      <img src="slike/gal4.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+      <img src="slike/wedd1.jpg." style="width:100%">
+    </div>
+      
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+      <img src="slike/wedding.jpg" style="width:100%">
+    </div>
+      
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>  
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="center reveal">
+    <div class="row sm">
+      <div class="col-4">
+          <h2>Wedding photography</h2>
+          <button type="button" class="btn btn2">LEARN MORE</button>
+      </div>
+      <div class="col-4">
+          <img src="slike/mladenci.jpg" alt="mladenci" class="tab">
+      </div>
+      <div class="col-4 img1">
+         <img src="slike/ruke.jpg" alt="ruke" class="tab">
+      </div>
+    </div>
+  </div>
+  <div class="center reveal">
+    <div class="row ms">
+        <div class="col-4">
+            <img src="slike/modelv.jpg" alt="model" class="tab">
+        </div>
+        <div class="col-4 img1">
+          <img src="slike/model2.jpg" alt="model" class="tab">
+        </div>
+        <div class="col-4">
+          <h2>Model photography</h2>
+          <button type="button" class="btn btn2">LEARN MORE</button>
+          <p></p>
+      </div>
+    </div>
+  </div>
+
+
+<div class="recent">
+  <div class="box">
+    
+    <h2 class="h2">RECENT WORK</h2>
+    <hr class="rounded">
+ 
+<div id="myBtnContainer">
+  <button class="btn active btn1" onclick="filterSelection('all')">ALL</button>
+  <button class="btn btn1" onclick="filterSelection('models')">MODELS</button>
+  <button class="btn btn1" onclick="filterSelection('wedding')">WEDDING</button>
+  <button class="btn btn1" onclick="filterSelection('events')">EVENTS </button>
+</div>
+
+    <div class="row r1">
+      <div class="column models">
+        <img src="slike/model1.jpg" class="tab">
+        <img src="slike/fashion.jpg" class="tab">
+        <img src="slike/fashion2.jpg" class="tab">
+      </div>
+      <div class="column wedding">
+        <img src="slike/wedd3.jpg" class="tab">
+      <img src="slike/wedd2.jpg" class="tab">
+      <img src="slike/wedd1.jpg" class="tab">
+      
+      </div>
+      <div class="column events">
+        <img src="slike/event3.jpg" class="tab"> 
+        <img src="slike/event1.jpg" class="tab">
+        <img src="slike/event.jpg" class="tab">
+      </div>
+    </div>
+
+    
+  </div>
+      
+</div>
+
+<!-- forma -->
+<div class="card" style="background-color:black">
+  <div class="bt">
+    <div class="card-body text-center">
+      <button type="button" class="btn btn-primary "  data-toggle="modal" data-target="#modal"> Contact us </button>
+    </div>
+  </div>
+
+    <div class="modal fade" id="modal">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+    
+          <div class="modal-header">
+            <h4 class="modal-title">Contact us</h4>
+          
+          </div>
+          <div class="modal-body">
+              <form method="POST">
+                <div class="input-group">
+                  <label>Full Name</label>
+                  <input type="text" placeholder="Enter your name" id="contact-name" onkeyup="validateName()">
+                  <span id="name-error"></span>
+                </div>
+          
+                <div class="input-group">
+                  <label>Phone Number</label>
+                  <input type="tel" placeholder="091 111 1111" id="contact-phone" onkeyup="validatePhone()">
+                  <span id="phone-error"></span>
+                </div>
+          
+                <div class="input-group">
+                  <label>Email</label>
+                  <input type="email" placeholder="Enter Email" id="contact-email" onkeyup="validateEmail()">
+                  <span id="email-error"></span>
+                </div>   
+          
+                <div class="input-group">
+                  <label>Your Message</label>
+                  <textarea rows="3" placeholder="Enter your message" id="contact-message" onkeyup="validateMessage()"></textarea>
+                  <span id="message-error"></span>
+                </div>
+          
+              <button id='button' onclick="return validateForm()"><i class="fa fa-paper-plane"></i>Submit</button>
+              <span id="submit-error"></span>          
+            </form>
+
+    </div>
+    
+    <div class="modal-footer">
+    <button type="button" class=" btn-danger" data-dismiss="modal">Close</button>
+    </div></div></div></div>
+    <!-- do tu je forma -->
+
+
+<!-- pocetak recenzija -->
+
+  <div class="card d-flex justify-content-center" style="background-color:black">
+    
+    <div class="bt">
+      <div class="card-body text-center">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Reviews</button>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Reviews</h5>
+            
+          </div>
+          <div class="modal-body">
+            <div class="reviews">
+              <img src="slike/portret2.jpg" alt="Avatar" class="avatar" >
+              <span>Chris Fox</span><br>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              <p>We hired Chris for our wedding. 
+                From the very beginning he was very professional. 
+                He was very flexible when we changed our date and also when we arranged our engagement 
+                shoot as we had to change it due to bad weather. He was very calm and easy to talk to. 
+                On the day he was on time and very discreet. He took some beautiful photos of us both in church and at the venue. 
+                Our celebrant commented that he was one of the best photographer he's ever worked with because of how discreet he was. 
+                It rained quite a lot on the day which meant that we could not take pictures when and where we had planned but he adapted 
+                to the circumstances brilliantly and we have a variety of formal and candid shots to remember the day by. 
+                He was truly brilliant!! He was also very quick at editing the photos which we have on an online gallery and in a USB 
+                stick as well as getting us a beautiful folio box with some prints. His prices are also very reasonable for wedding photography. 
+                We would definitely recommend him!</p>
+            </div>
+            <div class="reviews">
+              <img src="slike/portret1.jpg" alt="Avatar" class="avatar" >
+              <span>Rebecca Flex</span><br>
+              <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked" ></span>
+            <span class="fa fa-star"></span>
+              <p>Zoe was the first vendor we locked down for our city hall wedding - if you read her website at all, you'll know she's meticulous,
+                 detailed-oriented,¸
+                 and will help you feel confident planning from afar if you're not a local.
+                  Zoe always responded quickly and provided tips for the wedding which ended up coming true 
+                  (always aim to have hair and makeup done earlier than you think). She even brainstormed alternative 
+                  plans with me for backup ceremony locations if city hall were closed due to the pandemic or if we couldn't get the date 
+                  we wanted and helped me coordinate a surprise for the groom. Having Zoe was like having a wedding planner and she kept us 
+                  moving to each shoot location like a well-oiled machine.
+                I loved that she did a mix of candid style and posed shots and we didn't need to repeat poses and could just focus on being together 
+                and with our friends. She made excellent use of time when we stepped away to check in for city hall (only the couple and witness were
+                 allowed in this area) and she did a mini photo session for our friends on the grand staircase which was a pleasant surprise when we got 
+                 our pictures!
+                I love looking back on the pictures because she captured genuine smiles and laughter. I'm also glad we increased the amount of photography 
+                time even though it was a small affair at city hall so we could have Zoe with us from getting ready to the start of dinner.</p>
+            
+            </div>
+            <div class="reviews">
+              <img src="slike/portret3.jpg" alt="Avatar" class="avatar" >
+              <span>Maria Flex</span><br>
+              <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked" ></span>
+            <span class="fa fa-star"></span>
+              <p>There just aren’t enough words to possibly describe how amazing each and every photo that taryn snaps.
+                 She has a magical way of finding the perfect angle, lighting and of course expressions.
+                 My partner and I did a two-part wedding, a small family-only ceremony at SF City Hall followed a few months later by 
+                 a reception in Oakland. We worked with one of Zoe's associate photographers (Marielle) both times and have had
+                  an amazing experience working with them. Marielle brought so much warmth to our photo sessions and helped to make 
+                  us feel comfortable and make the photoshoot a memorable and fun experience. The photos we've gotten so far have been incredible, 
+                 and we love how Zoe has a guide for EVERYTHING!</p>
+            
+            </div>
+            <div class="reviews">
+              <img src="slike/portret4.jpg" alt="Avatar" class="avatar" >
+              <span>David Parish</span><br>
+              <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked" ></span>
+            <span class="fa fa-star "></span>
+              <p>We hired Chris for our wedding. 
+                From the very beginning he was very professional. 
+                He was very flexible when we changed our date and also when we arranged our engagement 
+                shoot as we had to change it due to bad weather. He was very calm and easy to talk to. 
+                On the day he was on time and very discreet. He took some beautiful photos of us both in church and at the venue. 
+                Our celebrant commented that he was one of the best photographer he's ever worked with because of how discreet he was. 
+                It rained quite a lot on the day which meant that we could not take pictures when and where we had planned but he adapted 
+                to the circumstances brilliantly and we have a variety of formal and candid shots to remember the day by. 
+                He was truly brilliant!! He was also very quick at editing the photos which we have on an online gallery and in a USB 
+                stick as well as getting us a beautiful folio box with some prints. His prices are also very reasonable for wedding photography. 
+                We would definitely recommend him!</p>
+            
+            </div>
+              <div class="reviews">
+                <img src="slike/portret5.jpg" alt="Avatar" class="avatar" >
+                <span>Ana Johnson</span><br>
+                <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked" ></span>
+              <span class="fa fa-star checked"></span>
+                <p>We hired Chris for our wedding. 
+                  From the very beginning he was very professional. 
+                  He was very flexible when we changed our date and also when we arranged our engagement 
+                  shoot as we had to change it due to bad weather. He was very calm and easy to talk to. 
+                  On the day he was on time and very discreet. He took some beautiful photos of us both in church and at the venue. 
+                  Our celebrant commented that he was one of the best photographer he's ever worked with because of how discreet he was. 
+                  It rained quite a lot on the day which meant that we could not take pictures when and where we had planned but he adapted 
+                  to the circumstances brilliantly and we have a variety of formal and candid shots to remember the day by. 
+                  He was truly brilliant!! He was also very quick at editing the photos which we have on an online gallery and in a USB 
+                  stick as well as getting us a beautiful folio box with some prints. His prices are also very reasonable for wedding photography. 
+                  We would definitely recommend him!</p>
+              
+              </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal" style="background-color: red">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <footer class="text-center text-white">
+        <div class="fo">
+          <div class="col-sm-4">
+            <h4>Photo studio ml</h4>
+          </div>
+          <div class="col-sm-4">
+            <h6>Contact</h6>
+            +385 91 555 <br>
+            Kopilica 5, Split<br>
+            9:00 am - 5:00 pm (mon-fri) <br>
+            9:00 am - 12:00 am (sat) <br>
+          </div>
+          <div class="col-sm-4">
+            <a id="home" href="#home">Home</a><br>
+            <a id="about" href="#about">About</a><br>
+            <a id="contac" href="#contac">Contact</a><br>
+            <a id="service" href="#service">Service</a><br>
+          </div>
+
+        </div>
+        <div class="bottom">
+          © 2022 Copyright<br>
+          <a href="#" style="font-size: 20px;" class="fa fa-facebook sml"></a>
+            <a href="#" style="font-size: 20px;" class="fa fa-twitter sml"></a>
+            <a href="#" style="font-size: 20px;" class="fa fa-instagram sml"></a>
+            <a href="#" style="font-size: 20px;" class="fa fa-pinterest sml"></a>
+        </div>
+      
+    </footer>
+
+    <script src="js.js"></script>
+    <script src="luce.js"></script>
+    <script src="tabgallery.js"></script> 
+    <script src="gallery.js"></script>  
+    
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.height = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+      }
+    </script>
+    
+</body>
+</html>

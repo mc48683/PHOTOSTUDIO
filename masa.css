@@ -1,0 +1,665 @@
+
+body,html{
+            
+    font-family: 'Montserrat', sans-serif;
+      background-color:rgb(0, 0, 0);
+      
+  }
+ 
+  
+  .center{
+      display: flex;
+      position: relative;
+      justify-content:center;
+      
+  }
+  .rowb{
+    display: flex;
+    justify-content:space-between;
+  }
+  
+  .col-4{
+      display: flex;
+      justify-content:center;
+      align-items: center;
+      color: white;
+      flex-direction: column;
+  }
+
+  .collapse{
+    float: right;
+  }
+    
+
+  .container-fluid img{
+    width: 100px;
+  }
+
+  .img1{
+      display: flex;
+      padding-top:200px;
+      border-color: #2b519d;
+      border: 1px;
+      max-width: 100%;
+  }
+  .btn2{
+      border-color: white;
+      color: white;
+      margin: 15px;
+      width:150px;
+      border-radius: 5px;
+  }
+
+  @-webkit-keyframes bgcolor {
+    0%,100% {
+      background-image:url('slike/wedd.jpg');
+      object-fit: cover;
+    }
+    50% {
+      background-image:url('slike/model.jpg');
+      object-fit: cover;
+    }
+    75% {
+      background-image:url('slike/ultra.jpg');
+      object-fit: cover;
+    }
+    
+  }
+      
+  h1{
+      font-size: 100px;
+      font-family: 'Montserrat', sans-serif;
+      text-shadow: 10px 10px 20px #000000;            
+      animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+      animation-duration: 2s; /* don't forget to set a duration! */
+
+  }
+
+  .nav-item{
+      margin:20px;
+  }
+
+  .navbar{
+      padding-bottom: 0;
+      border-bottom:1px solid;
+      border-color:rgb(54,54,54);
+      margin-left:150px;
+      margin-right:150px;
+      padding-top: 30px;
+      color:white;
+  }
+
+  .nav-item{
+     
+      margin-bottom:0;
+      padding-bottom:30px;
+      color: white;
+  }
+
+  .nav-link{
+    color:grey;
+  }
+
+  .nav-item:hover{
+      border-bottom:1px solid transparent;
+      border-color: white;
+      margin-bottom: -1px;
+      
+  }
+  .nav-link:hover{
+    color:white;
+  }
+
+  btn:hover{
+    color:red;
+    background-color: none;
+
+  }
+
+  .fa{
+    color:white;
+    text-decoration: none;
+    font-size:large;
+    margin:10px;
+  }
+
+  .fa:hover{
+    color:bisque;
+  }
+  
+  i{
+    font-size: 30px;
+    margin:10px;
+  }
+
+  .tab{
+    height:auto;
+    width: 300px;
+    margin: 20px;
+    transition:transform .5s;
+  }
+
+  .r1 img{
+    width: 100%;
+  }
+
+  .tab:hover {
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+    transform: scale(1.5);
+  } 
+  
+  footer{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: #161616;
+    padding: 0px;
+    font-size:small;
+  }
+.bottom{
+  padding:20px;
+}
+  .fo{
+    padding: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fo .col-sm-4{
+    text-align: left;
+    text-decoration: none;
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .bottom{
+    background-color: #252525;
+  }
+
+  .center{
+    transform: translateY(150px);
+    opacity: 0;
+    transition:opacity 2s all ease;
+  }
+
+  .center:hover{
+    opacity:1;
+  }
+
+  .reveal {
+    position: relative;
+    transform: translateY(200px);
+    opacity: 0;
+    transition: 2s all ease;
+  }
+
+  .reveal.active {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  .box{
+    margin-top: 100px;
+  }
+
+
+  .maingl{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    color:white;
+    font-size: 30px;
+    
+    
+  }
+  .main{
+   
+    background-color: #000;
+    background-size: cover;
+    padding-bottom: 300px;
+    background-image: url("slike/photographer.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position-x: 110vh;
+  }
+  
+  .col-sm-9{
+    display: flex;
+    justify-content: center;
+  }
+  .photo{
+    display: flex;
+    justify-content: center;
+  }
+  .rowa{
+    
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-color: rgb(19, 40, 58);
+    padding-top: 100px;
+    
+    display: flex;
+    justify-content: center;
+    
+  }
+
+
+  .col{
+    background-color: rgba(41, 41, 41, 0.5);
+    padding: 50px;
+    width:300px;
+    margin: 30px;
+    text-align: center;
+    
+  }
+  .fa-solid{
+    border-radius: 50%;
+    border-color: white;
+  }
+  .col-sm-8{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 100px;
+  }
+  .recent{
+    display: flex;
+    color: white;
+    
+    justify-content: center;
+    text-align: center;
+  }
+
+ 
+a:active,a.active{
+  color: #000;
+
+  border-bottom-width:0px; 
+}
+
+  
+  hr.rounded{
+    border-top: 2px solid rgb(240, 240, 240);;
+    border-radius: 5px;
+    margin: auto;
+    width: 500px;
+    
+  }
+  .myBtnContainer{
+    margin: 50px;
+    padding-bottom: 50px;
+  }
+  .photos{
+    display: flex;
+ 
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .text{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+
+/* Position the image container (needed to position the left and right arrows) */
+.container1 {
+position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+display: none;
+margin: 200px;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+cursor: pointer;
+position: absolute;
+top: 40%;
+width: auto;
+padding: 16px;
+margin-top: -50px;
+color: white;
+font-weight: bold;
+font-size: 20px;
+border-radius: 0 3px 3px 0;
+user-select: none;
+-webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+color: #f2f2f2;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+text-align: center;
+background-color:black;
+padding: 2px 16px;
+color: white;
+}
+
+
+
+/* Six columns side by side */
+.column {
+float: left;
+width: 16.66%;
+}
+
+.active,
+.demo:hover {
+opacity: 1;
+}
+
+.show {
+display: block;
+}
+
+
+
+
+.h2{
+  font-weight: 600;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+.r1 {
+  margin: 50px;
+  
+}
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+/* Add padding BETWEEN each column (if you want) */
+.r1,
+.r1 > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.r1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+.btn{
+  color: white;
+  border-color:#666;
+}
+.btn:hover{
+  color:white;
+  border-color: white
+}
+/* Style the buttons */
+.btn1 {
+  margin-top: 50px;
+  padding: 30px;
+  font-size: larger;
+  border:none;
+  color: white;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  
+  color:white;
+  border-color: white;
+  background-color: #666;
+}
+
+.line{
+  width: 100px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+.photo{
+  padding-bottom: 100px;
+}
+
+
+.center{
+  padding-top: 100px;
+   
+}
+.navbar{
+  margin:0px;
+  padding: 10px;
+  
+}
+
+.navbar-collapse{
+  background-color: #000;
+  z-index: 1000;
+  width:100%;
+  position: relative;
+}
+
+.rowb{
+  flex-wrap: wrap;
+}
+
+.h1{
+  size:10%;
+}
+
+* {
+  box-sizing: border-box;
+}
+body{
+  position:absolute;
+  width:100vw;
+}
+
+.navbar-toggler-icon{
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+
+.container-fluid img{
+  margin-left:10px;
+}
+
+h1{
+  font-size: 12vw;
+}
+.col-sm-8{
+  margin: 0px;
+}
+
+.rowb{
+  padding-left: 30px;
+}
+
+.rowa{
+  flex-wrap: wrap;
+  margin:0px;
+  padding: 0px;
+  width: 100%;
+}
+
+.rowa .col{
+  width:100%;
+}
+
+.main{
+  background-position: center;
+}
+
+
+.linep{
+  font-size: 5vw;
+}
+.mySlides{
+  margin:0px;
+  width:100vw;
+  padding: top 100px;
+}
+.mySlides img{
+  width:auto;
+}
+.card-body{
+  width:50%;
+}
+.row img{
+  width:100%;
+}
+.sm{
+  flex-direction: column;
+  align-items: center;
+}
+.ms{
+  flex-direction:column-reverse;
+  align-items: center;
+}
+.img1{
+
+  padding:0px;
+
+}
+
+.reveal {
+  
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+
+.fo{
+  flex-wrap: wrap;
+}
+
+.fo .col-sm-4{
+  padding: 10px;
+
+}
+
+.myBtnContainer{
+  width:50%;
+}
+
+hr.rounded{
+  width:100px;
+}
+.box{
+  width:100vw;
+  justify-content: center;
+  align-items: center;
+}
+.r1 img{
+  width:30vw;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding:20px;
+
+}
+.r1{
+  width:100%;
+  margin:0px;
+  padding:0px;
+  padding-right: 70px;
+
+}
+.maingl{
+  background-color: rgba(0, 0, 0, 0.7);
+  
+}
+
+.modal{
+  width: 100vw;
+}
+
+
+
+.bt{
+  display: flex;
+  justify-content: center;
+}
+
+  .card{
+    
+    width:100vw;
+  }
+  
+
+
+}
+

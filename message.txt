@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foto Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+
+        body,html{
+            
+        }
+
+        .row{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            background-image: url('pozadina.jpg');
+            background-size: cover;
+            padding: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+        h1{
+            font-size: 100px;
+        }
+
+        .nav-item{
+            margin:20px;
+        }
+
+        .navbar{
+            background-color: rgb(0, 0, 0);
+            padding:50px;
+        }
+
+        .fa{
+          color:white;
+          text-decoration: none;
+          font-size:large;
+          margin:10px;
+        }
+
+        .fa:hover{
+          color:bisque;
+          text-decoration:underline;
+        }
+
+        
+
+    </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark well-lg ">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+        </li>
+          <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler ms-auto" type="button" data-mdb-toggle="collapse"
+                data-mdb-target="#navbarToggleExternalContent3" aria-controls="navbarToggleExternalContent3"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+          </nav>
+          <div class="collapse" id="navbarToggleExternalContent3">
+            <div class="bg-light shadow-3 p-4">
+              <button class="btn btn-link btn-block border-bottom m-0">Link 1</button>
+              <button class="btn btn-link btn-block border-bottom m-0">Link 2</button>
+              <button class="btn btn-link btn-block m-0">Link 3</button>
+            </div>
+          </div>
+      </ul>
+
+    </div>
+  </nav>
+    <div class="row">
+        <div class="main">
+            
+            <h1>FOTO STUDIO </h1>
+            
+        </div>
+    </div>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, <br>and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+      <br>
+      Why do we use it?
+      <br>
+      It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for <br>'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+      <br>
+      <br>
+      Where does it come from?
+      <br>
+      Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature,<br> discovered the undoubtable source.<br> Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.<br> The first line of Lorem Ipsum,<br> "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+      <br><br>
+      The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+
+
+    <footer class="text-center text-white" style="background-color: rgb(61, 61, 61);">
+      <div>
+        
+        <div class="col-sm-3">
+
+        </div>
+
+        <div class="col-sm-6">
+          © 2022 Copyright<br>
+          Foto Studio Kopilica<br>
+          Kopilica 5, Split<br>
+          mašo napiši tu šta radio tj koje opcije nudimo u foto študiju<br>
+          +385 91 555 777<br>
+          Radno vrijeme:(MAŠO PREVEDI) <br>
+          9:00 am - 5:00 pm (mon-fri) <br>
+          9:00 am - 12:00 am (sat) <br>
+        </div>
+        
+        
+        <div class="col-sm-3" style="text-align: right;">
+          CONTACT INFO: <br>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
+          <a href="#" class="fa fa-pinterest"></a>
+        </div>
+        
+      </div>
+    </footer>
+    
+</body>
+</html>
